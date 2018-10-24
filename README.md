@@ -1,44 +1,37 @@
-Project Victual
+## What is this?
 
+This is a personal **Food Nutrition App**, a.k.a **'Victual'**, designed to be used by an individual to track their daily food and drink intake, provide a daily nutritional analysis to the user compared with the Recommended Daily Amounts and make recipe suggestions based on the user's three lowest nutrients, based on the food that they have entered. The user can also view historical data by selecting previous days.
 
-Aim: 
+Built as a single-page application using **Node.JS**, **Vanilla Javascript** and **MongoDB** (a NoSQL database). This app makes use of three (free) APIs provided by **Edamam**, as per the link below:
 
-Develop an application that helps monitors your daily nutritional intake and compare to recommended nutritional intake
+https://developer.edamam.com/
 
+This app also makes use of the HighCharts JS library, as per the link below:
 
-MVP:
+https://www.highcharts.com/docs/
 
-The app should:
+## Why is it here?
 
-Aim 1. Allows the user to keep a record of all the food / ingredients that the user submits on a particular day
+This was a week-long group project that I completed during my 16-week CodeClan course with three other students. This project acted as a tool to consolidate my learning of Javascript, a NoSQL database (Mongo), **event-driven programming** and complex interactions with an **external API**. My role in the group was full-stack. It was also the result of my first end-to-end application produced as a team!
 
-Aim 2. Persist the food / ingredients entered so that the values can be displayed to user over time
+## How do I use it?
 
-Aim 3. Display nutritional value for each food / ingredient consumed
+Take a look and have a play around with the app as deployed on Heroku here:
+https://victual-nutrition.herokuapp.com/
 
-Aim 4. Display a summary of the nutritional intake for that day
+## How could it be extended/improved?
 
-How much of each item
+- More API requests per minute
 
-What the nutritional of that item per g
+Currently the app is limited to the free version of the Edamam APIs, which particularly constrain the recipe suggestions - as only 5 requests can be made per minute to the recipe API. If this were to be actually deployed on the market then this would need to be addressed!
 
-Sum total of nutrients that day
+- More analysis customization
 
+Currently, the user can select individual nutrients to get a last-7-day analysis with a line-graph. The app has functionality to allow the user to change the time-frame, so this could be included in the UI. More customization would improve the app further, for example seeing two nutrients over time on the line graph to compare.
 
-API to be used:
+- Data accuracy relies on external API
 
-Edamam
-
-
-Extensions:
-
-Compare actual versus  expected nutrimental intake
-
-B. Graphical representation of the % difference
-
-C. Suggestions for food intake changes
-
-D. Suggestion of recipes that include the item that will compensate nutritional deficiencies
+Due to the nature of the content of the app, there is a very large range of potential inputted items by the user (bascially, any food and drink item!). The accuracy of the RDA% amounts that it returns is reliant on the external API recognising the food item, and the data held by the API being accurate which is difficult to validate ourselves! Currently, there is no error message if the food item is not recognised by the API, which the app would benefit from if added in.
 
 
 
