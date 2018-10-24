@@ -29,9 +29,9 @@ Currently the app is limited to the free version of the Edamam APIs, which parti
 
 Currently, the user can select individual nutrients to get a last-7-day analysis with a line-graph. The app has functionality to allow the user to change the time-frame, so this could be included in the UI. More customization would improve the app further, for example seeing two nutrients over time on the line graph to compare.
 
-- Data accuracy relies on external API
+- Data accuracy relies on external API and some foods not recognised
 
-Due to the nature of the content of the app, there is a very large range of potential inputted items by the user (bascially, any food and drink item!). The accuracy of the RDA% amounts that it returns is reliant on the external API recognising the food item, and the data held by the API being accurate which is difficult to validate ourselves! Currently, there is no error message if the food item is not recognised by the API, which the app would benefit from if added in.
+Due to the nature of the content of the app, there is a very large range of potential inputted items by the user (bascially, any food and drink item!). The accuracy of the RDA% amounts that it returns is reliant on the external API recognising the food item, and the data held by the API being accurate which is difficult to validate ourselves! Also currently, there is no error message if the food item is not recognised by the API, which the app would benefit from if added in.
 
 
 
