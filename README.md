@@ -19,6 +19,8 @@ This was a week-long group project that I completed during my 16-week CodeClan c
 Take a look and have a play around with the app as deployed on Heroku here:
 https://victual-nutrition.herokuapp.com/
 
+_NOTE! There is an issue with the app as per the above Heroku link due to changes from the Edamam API since the project was deployed...I might fix it some time or I might not_
+
 ## How could it be extended/improved?
 
 - More API requests per minute
